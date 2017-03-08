@@ -1,0 +1,5 @@
+require "pry"
+require "active_record"
+require "sinatra/base"
+require_relative "employee"
+require_relative "db/connection"
