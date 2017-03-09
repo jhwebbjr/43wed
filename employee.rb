@@ -2,8 +2,6 @@ require "active_record"
 require_relative "app_helper"
 
 class Employee < ActiveRecord::Base
-  belongs_to :department
-
   # validates :name, presence: true #uniqueness: true
   # validates :email, presence: true
 
